@@ -1,0 +1,392 @@
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (LATTE)
+[ORDER_CREATED] OrderGenerator-2 created new order: Mina (LATTE)
+[ORDER_CREATED] OrderGenerator-3 created new order: Sana (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 1 enqueued. Current queue size: 1
+[ORDER_ENQUEUED] Order ID 2 enqueued. Current queue size: 2
+[ORDER_ENQUEUED] Order ID 3 enqueued. Current queue size: 3
+[ORDER_DEQUEUED] Order ID 1 dequeued by Barista.
+[ORDER_DEQUEUED] Order ID 2 dequeued by Barista.
+[ORDER_DEQUEUED] Order ID 3 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 3 (Cappuccino)
+[PREPARATION_START] Barista-3 started preparing Order ID 2 (Latte)
+[PREPARATION_START] Barista-2 started preparing Order ID 1 (Latte)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 28, Milk: 12, Cups: 29)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 26, Milk: 9, Cups: 28)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 24, Milk: 7, Cups: 27)
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (LATTE)
+[ORDER_ENQUEUED] Order ID 4 enqueued. Current queue size: 1
+[ORDER_DEQUEUED] Order ID 4 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 4 (Latte)
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 22, Milk: 4, Cups: 26)
+[ORDER_CREATED] OrderGenerator-2 created new order: Reza (TEA)
+[ORDER_ENQUEUED] Order ID 5 enqueued. Current queue size: 1
+[ORDER_CREATED] OrderGenerator-3 created new order: Soroush (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 6 enqueued. Current queue size: 2
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 2 for customer Mina
+[ORDER_DEQUEUED] Order ID 5 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 5 (Tea)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 22, Milk: 4, Cups: 25)
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (ESPRESSO)
+[ORDER_ENQUEUED] Order ID 7 enqueued. Current queue size: 2
+[ORDER_CREATED] OrderGenerator-3 created new order: Amir (ESPRESSO)
+[ORDER_ENQUEUED] Order ID 8 enqueued. Current queue size: 3
+[ORDER_CREATED] OrderGenerator-1 created new order: Amir (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 9 enqueued. Current queue size: 4
+[PREPARATION_END] Barista-3 delivered Order ID 5 for customer Reza
+[ORDER_DEQUEUED] Order ID 6 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 6 (Cappuccino)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 20, Milk: 2, Cups: 24)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 1 for customer Ali
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 7 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 7 (Espresso)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 18, Milk: 2, Cups: 23)
+[ORDER_CREATED] OrderGenerator-2 created new order: Amir (LATTE)
+[ORDER_ENQUEUED] Order ID 10 enqueued. Current queue size: 3
+[ORDER_CREATED] OrderGenerator-3 created new order: Ali (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 11 enqueued. Current queue size: 4
+[ORDER_CREATED] OrderGenerator-1 created new order: Sana (TEA)
+[ORDER_ENQUEUED] Order ID 12 enqueued. Current queue size: 5
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 3 for customer Sana
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 8 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 8 (Espresso)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 16, Milk: 2, Cups: 22)
+[ORDER_CREATED] OrderGenerator-1 created new order: Soroush (LATTE)
+[ORDER_ENQUEUED] Order ID 13 enqueued. Current queue size: 5
+[ORDER_CREATED] OrderGenerator-2 created new order: Zahra (ESPRESSO)
+[ORDER_ENQUEUED] Order ID 14 enqueued. Current queue size: 6
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 4 for customer Ali
+[ORDER_DEQUEUED] Order ID 9 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 9 (Cappuccino)
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 14, Milk: 0, Cups: 21)
+[ORDER_CREATED] OrderGenerator-3 created new order: Amir (LATTE)
+[ORDER_ENQUEUED] Order ID 15 enqueued. Current queue size: 6
+[ORDER_CREATED] OrderGenerator-2 created new order: Amir (ESPRESSO)
+[ORDER_ENQUEUED] Order ID 16 enqueued. Current queue size: 7
+[ORDER_CREATED] OrderGenerator-1 created new order: Sana (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 17 enqueued. Current queue size: 8
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 6 for customer Soroush
+[ORDER_DEQUEUED] Order ID 10 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 10 (Latte)
+[ORDER_CREATED] OrderGenerator-3 created new order: Ali (ESPRESSO)
+[ORDER_ENQUEUED] Order ID 18 enqueued. Current queue size: 8
+[ORDER_CREATED] OrderGenerator-1 created new order: Soroush (LATTE)
+[ORDER_ENQUEUED] Order ID 19 enqueued. Current queue size: 9
+[ORDER_CREATED] OrderGenerator-2 created new order: Mina (CAPPUCCINO)
+[ORDER_ENQUEUED] Order ID 20 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-1 created new order: Reza (TEA)
+[ORDER_CREATED] OrderGenerator-2 created new order: Sana (ESPRESSO)
+[ORDER_CREATED] OrderGenerator-3 created new order: Soroush (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 7 for customer Ali
+[ORDER_DEQUEUED] Order ID 11 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 11 (Cappuccino)
+[ORDER_ENQUEUED] Order ID 21 enqueued. Current queue size: 10
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 8 for customer Amir
+[ORDER_DEQUEUED] Order ID 12 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 22 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-1 started preparing Order ID 12 (Tea)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 14, Milk: 0, Cups: 20)
+[ORDER_CREATED] OrderGenerator-2 created new order: Amir (TEA)
+[ORDER_CREATED] OrderGenerator-1 created new order: Mina (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 9 for customer Amir
+[ORDER_DEQUEUED] Order ID 13 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 13 (Latte)
+[ORDER_ENQUEUED] Order ID 23 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-3 created new order: Amir (LATTE)
+[PREPARATION_END] Barista-1 delivered Order ID 12 for customer Sana
+[ORDER_DEQUEUED] Order ID 14 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 24 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-1 started preparing Order ID 14 (Espresso)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 12, Milk: 0, Cups: 19)
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[ORDER_CREATED] OrderGenerator-2 created new order: Reza (LATTE)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 14 for customer Zahra
+[ORDER_DEQUEUED] Order ID 15 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 25 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-1 started preparing Order ID 15 (Latte)
+[ORDER_CREATED] OrderGenerator-1 created new order: Amir (ESPRESSO)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 32, Milk: 10, Cups: 39
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 30, Milk: 7, Cups: 38)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 28, Milk: 4, Cups: 37)
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 26, Milk: 1, Cups: 36)
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 10 for customer Amir
+[ORDER_DEQUEUED] Order ID 16 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 26 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-3 started preparing Order ID 16 (Espresso)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 24, Milk: 1, Cups: 35)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 15 for customer Amir
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 17 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 17 (Cappuccino)
+[ORDER_ENQUEUED] Order ID 27 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-3 created new order: Reza (LATTE)
+[ORDER_CREATED] OrderGenerator-2 created new order: Soroush (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 13 for customer Soroush
+[ORDER_DEQUEUED] Order ID 18 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 28 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-4 started preparing Order ID 18 (Espresso)
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 22, Milk: 1, Cups: 34)
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 16 for customer Amir
+[ORDER_DEQUEUED] Order ID 19 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 19 (Latte)
+[ORDER_ENQUEUED] Order ID 29 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-1 created new order: Reza (LATTE)
+[ORDER_CREATED] OrderGenerator-3 created new order: Mina (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 18 for customer Ali
+[ORDER_DEQUEUED] Order ID 20 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 30 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-4 started preparing Order ID 20 (Cappuccino)
+[ORDER_CREATED] OrderGenerator-2 created new order: Sana (ESPRESSO)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 42, Milk: 11, Cups: 54
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 40, Milk: 9, Cups: 53)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 38, Milk: 7, Cups: 52)
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 36, Milk: 4, Cups: 51)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 34, Milk: 2, Cups: 50)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 20 for customer Mina
+[ORDER_DEQUEUED] Order ID 21 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 31 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-4 started preparing Order ID 21 (Tea)
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 34, Milk: 2, Cups: 49)
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (LATTE)
+[PREPARATION_END] Barista-4 delivered Order ID 21 for customer Reza
+[ORDER_DEQUEUED] Order ID 22 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 32 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-4 started preparing Order ID 22 (Espresso)
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 32, Milk: 2, Cups: 48)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 11 for customer Ali
+[ORDER_DEQUEUED] Order ID 23 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 23 (Espresso)
+[ORDER_ENQUEUED] Order ID 33 enqueued. Current queue size: 10
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 30, Milk: 2, Cups: 47)
+[ORDER_CREATED] OrderGenerator-2 created new order: Amir (LATTE)
+[ORDER_CREATED] OrderGenerator-3 created new order: Soroush (LATTE)
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 19 for customer Soroush
+[ORDER_DEQUEUED] Order ID 24 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 24 (Tea)
+[ORDER_ENQUEUED] Order ID 34 enqueued. Current queue size: 10
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 30, Milk: 2, Cups: 46)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 17 for customer Sana
+[ORDER_DEQUEUED] Order ID 25 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 25 (Espresso)
+[ORDER_ENQUEUED] Order ID 35 enqueued. Current queue size: 10
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 28, Milk: 2, Cups: 45)
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (TEA)
+[PREPARATION_END] Barista-3 delivered Order ID 24 for customer Amir
+[ORDER_DEQUEUED] Order ID 26 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 36 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-3 started preparing Order ID 26 (Latte)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 22 for customer Sana
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 27 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 27 (Latte)
+[ORDER_ENQUEUED] Order ID 37 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-2 created new order: Zahra (CAPPUCCINO)
+[ORDER_CREATED] OrderGenerator-1 created new order: Soroush (LATTE)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 23 for customer Soroush
+[ORDER_DEQUEUED] Order ID 28 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 28 (Espresso)
+[ORDER_ENQUEUED] Order ID 38 enqueued. Current queue size: 10
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 26, Milk: 2, Cups: 44)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[ORDER_CREATED] OrderGenerator-3 created new order: Reza (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 25 for customer Mina
+[ORDER_DEQUEUED] Order ID 29 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 39 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-1 started preparing Order ID 29 (Latte)
+[ORDER_CREATED] OrderGenerator-2 created new order: Zahra (CAPPUCCINO)
+[ORDER_CREATED] OrderGenerator-1 created new order: Mina (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 28 for customer Amir
+[ORDER_DEQUEUED] Order ID 30 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 40 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-2 started preparing Order ID 30 (Espresso)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 24, Milk: 2, Cups: 43)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[ORDER_CREATED] OrderGenerator-3 created new order: Reza (CAPPUCCINO)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 30 for customer Soroush
+[ORDER_DEQUEUED] Order ID 31 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 31 (Latte)
+[ORDER_ENQUEUED] Order ID 41 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-2 created new order: Soroush (LATTE)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 44, Milk: 12, Cups: 63
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 42, Milk: 9, Cups: 62)
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 40, Milk: 6, Cups: 61)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 38, Milk: 3, Cups: 60)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 36, Milk: 0, Cups: 59)
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 26 for customer Amir
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 32 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 32 (Espresso)
+[ORDER_ENQUEUED] Order ID 42 enqueued. Current queue size: 10
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 34, Milk: 0, Cups: 58)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 31 for customer Reza
+[ORDER_DEQUEUED] Order ID 33 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 43 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-2 started preparing Order ID 33 (Espresso)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 32, Milk: 0, Cups: 57)
+[ORDER_CREATED] OrderGenerator-1 created new order: Ali (TEA)
+[ORDER_CREATED] OrderGenerator-3 created new order: Zahra (ESPRESSO)
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 27 for customer Reza
+[ORDER_DEQUEUED] Order ID 34 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 34 (Latte)
+[ORDER_ENQUEUED] Order ID 44 enqueued. Current queue size: 10
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 29 for customer Reza
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[ORDER_DEQUEUED] Order ID 35 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 35 (Latte)
+[ORDER_ENQUEUED] Order ID 45 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-2 created new order: Amir (LATTE)
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 32 for customer Mina
+[ORDER_DEQUEUED] Order ID 36 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 36 (Latte)
+[ORDER_ENQUEUED] Order ID 46 enqueued. Current queue size: 10
+[ORDER_CREATED] OrderGenerator-1 created new order: Reza (LATTE)
+[ORDER_CREATED] OrderGenerator-3 created new order: Sana (TEA)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 33 for customer Sana
+[ORDER_DEQUEUED] Order ID 37 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 47 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-2 started preparing Order ID 37 (Tea)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 32, Milk: 0, Cups: 56)
+[ORDER_CREATED] OrderGenerator-2 created new order: Ali (LATTE)
+[PREPARATION_END] Barista-2 delivered Order ID 37 for customer Ali
+[ORDER_DEQUEUED] Order ID 38 dequeued by Barista.
+[ORDER_ENQUEUED] Order ID 48 enqueued. Current queue size: 10
+[PREPARATION_START] Barista-2 started preparing Order ID 38 (Cappuccino)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 52, Milk: 10, Cups: 76
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 50, Milk: 7, Cups: 75)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 48, Milk: 5, Cups: 74)
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 46, Milk: 2, Cups: 73)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 38 for customer Zahra
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 34 for customer Ali
+[ORDER_DEQUEUED] Order ID 39 dequeued by Barista.
+[PREPARATION_START] Barista-4 started preparing Order ID 39 (Latte)
+[ORDER_DEQUEUED] Order ID 40 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 40 (Espresso)
+[ORDER_ENQUEUED] Order ID 49 enqueued. Current queue size: 9
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 44, Milk: 2, Cups: 72)
+[ORDER_ENQUEUED] Order ID 50 enqueued. Current queue size: 10
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 40 for customer Reza
+[ORDER_DEQUEUED] Order ID 41 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 41 (Cappuccino)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 42, Milk: 0, Cups: 71)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 36 for customer Soroush
+[ORDER_DEQUEUED] Order ID 42 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 42 (Espresso)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 40, Milk: 0, Cups: 70)
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 42 for customer Mina
+[ORDER_DEQUEUED] Order ID 43 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 43 (Cappuccino)
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 41 for customer Zahra
+[ORDER_DEQUEUED] Order ID 44 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 44 (Latte)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 60, Milk: 10, Cups: 90
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 58, Milk: 7, Cups: 89)
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 56, Milk: 4, Cups: 88)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 54, Milk: 2, Cups: 87)
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 44 for customer Soroush
+[ORDER_DEQUEUED] Order ID 45 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 45 (Tea)
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 54, Milk: 2, Cups: 86)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 35 for customer Amir
+[ORDER_DEQUEUED] Order ID 46 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 46 (Espresso)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 52, Milk: 2, Cups: 85)
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 43 for customer Reza
+[ORDER_DEQUEUED] Order ID 47 dequeued by Barista.
+[PREPARATION_START] Barista-3 started preparing Order ID 47 (Latte)
+[PREPARATION_END] Barista-2 delivered Order ID 45 for customer Ali
+[ORDER_DEQUEUED] Order ID 48 dequeued by Barista.
+[PREPARATION_START] Barista-2 started preparing Order ID 48 (Latte)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 46 for customer Zahra
+[ORDER_DEQUEUED] Order ID 49 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 49 (Tea)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 52, Milk: 2, Cups: 84)
+[PREPARATION_END] Barista-1 delivered Order ID 49 for customer Sana
+[ORDER_DEQUEUED] Order ID 50 dequeued by Barista.
+[PREPARATION_START] Barista-1 started preparing Order ID 50 (Latte)
+[INVENTORY_REFILL] Inventory refilled. Current status -> Coffee: 72, Milk: 12, Cups: 104
+[INVENTORY_WITHDRAW] Barista-4 withdrew ingredients. (Coffee: 70, Milk: 9, Cups: 103)
+[INVENTORY_WITHDRAW] Barista-1 withdrew ingredients. (Coffee: 68, Milk: 6, Cups: 102)
+[COFFEE_MACHINE_USE] Barista-4 is using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-1 is using the coffee machine.
+[INVENTORY_WITHDRAW] Barista-2 withdrew ingredients. (Coffee: 66, Milk: 3, Cups: 101)
+[INVENTORY_WITHDRAW] Barista-3 withdrew ingredients. (Coffee: 64, Milk: 0, Cups: 100)
+[COFFEE_MACHINE_RELEASE] Barista-1 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-2 is using the coffee machine.
+[PREPARATION_END] Barista-1 delivered Order ID 50 for customer Ali
+[COFFEE_MACHINE_RELEASE] Barista-4 finished using the coffee machine.
+[COFFEE_MACHINE_USE] Barista-3 is using the coffee machine.
+[PREPARATION_END] Barista-4 delivered Order ID 39 for customer Soroush
+[COFFEE_MACHINE_RELEASE] Barista-2 finished using the coffee machine.
+[PREPARATION_END] Barista-2 delivered Order ID 48 for customer Reza
+[COFFEE_MACHINE_RELEASE] Barista-3 finished using the coffee machine.
+[PREPARATION_END] Barista-3 delivered Order ID 47 for customer Amir
