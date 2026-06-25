@@ -1,9 +1,5 @@
 package cafe.models;
 
-/**
- * Represents the types of drinks available in the cafe.
- * Contains the specific recipe (materials required) for each drink type.
- */
 public enum DrinkType {
     ESPRESSO("Espresso", 2, 0, 1, true),
     LATTE("Latte", 2, 3, 1, true),
